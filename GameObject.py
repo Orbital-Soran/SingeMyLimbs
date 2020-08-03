@@ -6,7 +6,6 @@ from direct.actor.Actor import Actor
 
 class GameObject(object):
 
-    usedID = 10000
     # the object that all game entities inherit
 
     def __init__(self, objectID = uuid.uuid4):
